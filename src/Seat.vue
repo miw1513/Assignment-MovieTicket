@@ -1,5 +1,6 @@
 <template>
     <div class="box">
+        <p title="title">กรุณาเลือกที่นั่ง</p><br>
            <template v-for="s in seats">
                <button 
                :class="className(s)"
